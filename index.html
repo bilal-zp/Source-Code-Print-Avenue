@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Print Avenue | Complete Printing Solutions — You Think, We Print</title>
+  <meta name="description" content="Print Avenue offers complete printing solutions under one roof — creative design, pre-production, high-quality printing and post-production finishing for businesses, organizations and individuals.">
+  <meta name="theme-color" content="#0B2A5B">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-mark.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ============ SVG ICON SPRITE (reusable via <use>) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></symbol>
+      <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+      <symbol id="i-printer" viewBox="0 0 24 24"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M22.5 6.4a2.8 2.8 0 0 0-2-2C18.8 4 12 4 12 4s-6.8 0-8.5.4a2.8 2.8 0 0 0-2 2C1 8.1 1 12 1 12s0 3.9.5 5.6a2.8 2.8 0 0 0 2 2C5.2 20 12 20 12 20s6.8 0 8.5-.4a2.8 2.8 0 0 0 2-2c.5-1.7.5-5.6.5-5.6s0-3.9-.5-5.6Z"/><path d="m9.7 15 5.8-3-5.8-3Z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- ============ HEADER / NAVBAR ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#home" aria-label="Print Avenue — Home">
+        <img class="brand__mark" src="assets/images/logo-mark.svg" alt="" width="46" height="33">
+        <span class="brand__text">Print<span>Avenue</span></span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#work">Our Work</a></li>
+          <li><a class="nav__link" href="#clients">Clients</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+          <li class="nav__cta-mobile"><a class="btn btn--primary" href="#contact">Get a Quote <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header-cta" href="#contact">Get a Quote <svg class="icon"><use href="#i-arrow"/></svg></a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow" data-reveal="up">You Think — We Print.</p>
+          <h1 id="hero-title" data-reveal="up" style="--d:100ms">
+            <span class="u-block">Complete</span>
+            <span class="u-block accent">Printing</span>
+            <span class="u-block">Solutions</span>
+          </h1>
+          <p class="lead" data-reveal="up" style="--d:200ms">From creative design to final delivery, we bring your ideas to life with quality, precision and care.</p>
+
+          <div class="btn-group" data-reveal="up" style="--d:300ms">
+            <a class="btn btn--primary" href="#contact">Get a Quote <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--outline" href="#services">Our Services</a>
+          </div>
+
+          <ul class="hero__features" data-reveal="up" style="--d:400ms">
+            <li><svg class="icon"><use href="#i-pencil"/></svg><span>Creative<br>Design</span></li>
+            <li><svg class="icon"><use href="#i-monitor"/></svg><span>Pre-Production<br>Preparation</span></li>
+            <li><svg class="icon"><use href="#i-printer"/></svg><span>High-Quality<br>Printing</span></li>
+            <li><svg class="icon"><use href="#i-layers"/></svg><span>Post-Production<br>Finishing</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="false">
+          <div class="hero__shape hero__shape--orange"></div>
+          <div class="hero__shape hero__shape--navy"></div>
+          <div class="hero__photo" data-reveal="right" style="--d:200ms">
+            <img id="hero-img" src="assets/images/hero.jpg" alt="Industrial offset printing press producing vivid colour prints beside a branded packaging box" fetchpriority="high" width="1200" height="896">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / WHY PRINT AVENUE ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__content">
+          <p class="eyebrow" data-reveal="up">Why Print Avenue</p>
+          <h2 id="about-title" data-reveal="up" style="--d:100ms">
+            <span class="u-block">More</span>
+            <span class="u-block">Than Just</span>
+            <span class="u-block accent">Printing</span>
+          </h2>
+          <p class="lead" data-reveal="up" style="--d:200ms">We provide complete printing solutions under one roof — design, pre-press, printing and post-production, ensuring high quality results for every business need.</p>
+          <div data-reveal="up" style="--d:300ms">
+            <a class="btn btn--outline" href="#clients">About Us <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ul class="about__cards">
+          <li data-reveal="up">
+            <article class="feature-card">
+              <span class="feature-card__icon tint-orange"><svg class="icon"><use href="#i-pencil"/></svg></span>
+              <h3>Design</h3>
+              <p>Creative design solutions that communicate your brand effectively.</p>
+            </article>
+          </li>
+          <li data-reveal="up" style="--d:120ms">
+            <article class="feature-card">
+              <span class="feature-card__icon tint-blue"><svg class="icon"><use href="#i-monitor"/></svg></span>
+              <h3>Pre-Production</h3>
+              <p>Artwork preparation, color management and plate making for perfect results.</p>
+            </article>
+          </li>
+          <li data-reveal="up" style="--d:240ms">
+            <article class="feature-card">
+              <span class="feature-card__icon tint-pink"><svg class="icon"><use href="#i-printer"/></svg></span>
+              <h3>Printing</h3>
+              <p>High-quality offset, digital and large format printing.</p>
+            </article>
+          </li>
+          <li data-reveal="up" style="--d:360ms">
+            <article class="feature-card">
+              <span class="feature-card__icon tint-yellow"><svg class="icon"><use href="#i-layers"/></svg></span>
+              <h3>Post-Production</h3>
+              <p>Finishing, binding, packaging and value addition.</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__main">
+            <p class="eyebrow" data-reveal="up">Our Services</p>
+            <h2 id="services-title" data-reveal="up" style="--d:100ms">
+              <span class="u-block">All Your Printing Needs</span>
+              <span class="u-block accent">Under One Roof</span>
+            </h2>
+          </div>
+          <div class="section-head__aside" data-reveal="up" style="--d:200ms">
+            <p>We deliver a wide range of printing solutions for businesses, organizations and individuals.</p>
+            <a class="btn btn--outline btn--sm" href="#process">View All Services <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ul class="cards" style="--cols-desktop:5; --cols-tablet:3; --cols-mobile:2">
+          <li data-reveal="up">
+            <figure class="tile">
+              <div class="tile__media"><img src="assets/images/service-marketing.jpg" alt="Marketing materials — brochures and flyers" loading="lazy" width="896" height="1200"></div>
+              <figcaption>Marketing Materials</figcaption>
+            </figure>
+          </li>
+          <li data-reveal="up" style="--d:100ms">
+            <figure class="tile">
+              <div class="tile__media"><img src="assets/images/service-packaging.jpg" alt="Custom packaging and labels" loading="lazy" width="896" height="1200"></div>
+              <figcaption>Packaging &amp; Labels</figcaption>
+            </figure>
+          </li>
+          <li data-reveal="up" style="--d:200ms">
+            <figure class="tile">
+              <div class="tile__media"><img src="assets/images/service-books.jpg" alt="Books and catalogues" loading="lazy" width="896" height="1200"></div>
+              <figcaption>Books &amp; Catalogues</figcaption>
+            </figure>
+          </li>
+          <li data-reveal="up" style="--d:300ms">
+            <figure class="tile">
+              <div class="tile__media"><img src="assets/images/service-stationery.jpg" alt="Corporate stationery set" loading="lazy" width="896" height="1200"></div>
+              <figcaption>Corporate Stationery</figcaption>
+            </figure>
+          </li>
+          <li data-reveal="up" style="--d:400ms">
+            <figure class="tile">
+              <div class="tile__media"><img src="assets/images/service-largeformat.jpg" alt="Large format banners and billboards" loading="lazy" width="896" height="1200"></div>
+              <figcaption>Large Format Printing</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="process__decor" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__main">
+            <h2 id="process-title" data-reveal="up">
+              <span class="u-block">From Idea</span>
+              <span class="u-block accent">to Impact</span>
+            </h2>
+          </div>
+          <div class="section-head__aside" data-reveal="up" style="--d:150ms">
+            <p>We deliver every project through a streamlined process that ensures quality, efficiency and on-time delivery.</p>
+            <a class="btn btn--dark btn--sm" href="#work">Our Process <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li class="step" data-reveal="up">
+            <span class="step__icon bg-orange"><svg class="icon"><use href="#i-pencil"/></svg></span>
+            <h3><span class="step__num">01</span> Design</h3>
+            <p>Understanding your idea and creating impactful designs.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:150ms">
+            <span class="step__icon bg-blue"><svg class="icon"><use href="#i-monitor"/></svg></span>
+            <h3><span class="step__num">02</span> Pre-Production</h3>
+            <p>Preparing artwork and plates for accurate printing.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:300ms">
+            <span class="step__icon bg-pink"><svg class="icon"><use href="#i-printer"/></svg></span>
+            <h3><span class="step__num">03</span> Printing</h3>
+            <p>Using advanced printing technology for exceptional quality.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:450ms">
+            <span class="step__icon bg-yellow"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <h3><span class="step__num">04</span> Post-Production</h3>
+            <p>Finishing, binding and packaging to complete your product.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED WORK ============ -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__main">
+            <p class="eyebrow" data-reveal="up">Featured Work</p>
+            <h2 id="work-title" data-reveal="up" style="--d:100ms">
+              Quality <span class="accent">You Can See</span>
+            </h2>
+          </div>
+          <div class="section-head__aside" data-reveal="up" style="--d:200ms">
+            <p>A selection of our recent projects across various industries.</p>
+            <a class="btn btn--outline btn--sm" href="#clients">View All Work <svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ul class="cards" style="--cols-desktop:5; --cols-tablet:3; --cols-mobile:2">
+          <li data-reveal="zoom">
+            <div class="work-item"><img src="assets/images/work-magazine.jpg" alt="Magazine spread with lifestyle photography" loading="lazy" width="896" height="1200"></div>
+          </li>
+          <li data-reveal="zoom" style="--d:100ms">
+            <div class="work-item"><img src="assets/images/work-packaging.jpg" alt="Premium branded gift boxes and paper bag" loading="lazy" width="896" height="1200"></div>
+          </li>
+          <li data-reveal="zoom" style="--d:200ms">
+            <div class="work-item"><img src="assets/images/work-catalogue.jpg" alt="Product catalogue open to a colourful spread" loading="lazy" width="896" height="1200"></div>
+          </li>
+          <li data-reveal="zoom" style="--d:300ms">
+            <div class="work-item"><img src="assets/images/work-books.jpg" alt="Stack of hardcover books with gold foil" loading="lazy" width="896" height="1200"></div>
+          </li>
+          <li data-reveal="zoom" style="--d:400ms">
+            <div class="work-item"><img src="assets/images/work-shopping-bag.jpg" alt="Orange and white printed shopping bag and gift box" loading="lazy" width="896" height="1200"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CLIENTS ============ -->
+    <section class="section clients" id="clients" aria-labelledby="clients-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-head__main">
+            <p class="eyebrow" data-reveal="up">Our Clients</p>
+            <h2 id="clients-title" data-reveal="up" style="--d:100ms">
+              Trusted by <span class="accent">Leading Brands</span>
+            </h2>
+          </div>
+          <div class="section-head__aside" data-reveal="up" style="--d:200ms">
+            <p>We are proud to work with businesses across diverse industries.</p>
+          </div>
+        </div>
+
+        <ul class="cards cards--brands" style="--cols-desktop:6; --cols-tablet:4; --cols-mobile:3; --gap:1rem">
+          <li data-reveal="up"><div class="brand-logo"><img src="assets/brands/brand-01.svg" alt="Client logo 1" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:60ms"><div class="brand-logo"><img src="assets/brands/brand-02.svg" alt="Client logo 2" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:120ms"><div class="brand-logo"><img src="assets/brands/brand-03.svg" alt="Client logo 3" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:180ms"><div class="brand-logo"><img src="assets/brands/brand-04.svg" alt="Client logo 4" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:240ms"><div class="brand-logo"><img src="assets/brands/brand-05.svg" alt="Client logo 5" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:300ms"><div class="brand-logo"><img src="assets/brands/brand-06.svg" alt="Client logo 6" loading="lazy"></div></li>
+          <li data-reveal="up"><div class="brand-logo"><img src="assets/brands/brand-07.svg" alt="Client logo 7" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:60ms"><div class="brand-logo"><img src="assets/brands/brand-08.svg" alt="Client logo 8" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:120ms"><div class="brand-logo"><img src="assets/brands/brand-09.svg" alt="Client logo 9" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:180ms"><div class="brand-logo"><img src="assets/brands/brand-10.svg" alt="Client logo 10" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:240ms"><div class="brand-logo"><img src="assets/brands/brand-11.svg" alt="Client logo 11" loading="lazy"></div></li>
+          <li data-reveal="up" style="--d:300ms"><div class="brand-logo"><img src="assets/brands/brand-12.svg" alt="Client logo 12" loading="lazy"></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta" id="quote" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta__box" data-reveal="up">
+          <div class="cta__media"><img src="assets/images/cta-banner.jpg" alt="" loading="lazy" width="1376" height="768"></div>
+          <div class="cta__text">
+            <h2 id="cta-title">Let's Bring <span class="accent">Your Ideas</span> to Life</h2>
+            <p>Get in touch with our team today and discuss your next printing project.</p>
+          </div>
+          <a class="btn btn--primary" href="#contact">Get a Quote <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER / CONTACT ============ -->
+  <footer class="footer" id="contact">
+    <div class="footer__decor" aria-hidden="true"></div>
+    <div class="container footer__grid">
+      <div class="footer__brand" data-reveal="up">
+        <a class="brand brand--light" href="#home" aria-label="Print Avenue — Home">
+          <img class="brand__mark" src="assets/images/logo-mark.svg" alt="" width="46" height="33">
+          <span class="brand__text">Print<span>Avenue</span></span>
+        </a>
+        <p>Your trusted partner for complete printing solutions — design, printing, pre-production and post-production.</p>
+        <ul class="socials">
+          <li><a href="#home" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="#home" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="#home" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+          <li><a href="#home" aria-label="YouTube"><svg class="icon"><use href="#i-youtube"/></svg></a></li>
+        </ul>
+      </div>
+
+      <nav class="footer__col" aria-label="Quick links" data-reveal="up" style="--d:100ms">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#clients">Clients</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-label="Our services" data-reveal="up" style="--d:200ms">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#about">Design</a></li>
+          <li><a href="#process">Pre-Production</a></li>
+          <li><a href="#services">Printing</a></li>
+          <li><a href="#process">Post-Production</a></li>
+          <li><a href="#services">Packaging</a></li>
+          <li><a href="#services">Large Format Printing</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col" data-reveal="up" style="--d:300ms">
+        <h3>Contact Us</h3>
+        <ul class="contact-list">
+          <li><svg class="icon"><use href="#i-phone"/></svg><span><a href="tel:+92421234500">+92-42-1234500</a><br><a href="tel:+92421234501">+92-42-1234501</a></span></li>
+          <li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:info@printavenue.com">info@printavenue.com</a></li>
+          <li><svg class="icon"><use href="#i-pin"/></svg><address>21 Km Ferozepur Road,<br>Lahore, 54000, Pakistan</address></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="year">2024</span> Print Avenue. All Rights Reserved.</p>
+        <p class="footer__tagline">You Think — <span>We Print.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
